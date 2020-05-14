@@ -73,6 +73,16 @@
             "enumb": 2,
             "eventtype": 3,
             "m_owner": "abd5a1c9-d0c2-4e6a-a20e-6326647e5912"
+        },
+        {
+            "id": "87ef86d2-a2d3-4873-8bed-a3919737f780",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "3ce100fb-d6b1-4321-bf52-4a37ba696278",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "abd5a1c9-d0c2-4e6a-a20e-6326647e5912"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -104,6 +114,62 @@
             "resourceFilter": 1023,
             "value": "PlayerSwingSword",
             "varName": "weapon_attack",
+            "varType": 0
+        },
+        {
+            "id": "6c8e66b3-fc63-448f-b853-106d2b861246",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "45",
+            "varName": "swing_angle",
+            "varType": 0
+        },
+        {
+            "id": "f2f25d88-187d-4655-815c-77b22122d3f9",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "12",
+            "varName": "swing_speed_up",
+            "varType": 0
+        },
+        {
+            "id": "33d435bd-eff0-4ab7-9bf9-09f46166563a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "10",
+            "varName": "swing_speed_down",
+            "varType": 0
+        },
+        {
+            "id": "5c2c8630-a880-4404-84ae-47395aeda1cb",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "8",
+            "varName": "thrust_length",
             "varType": 0
         }
     ],

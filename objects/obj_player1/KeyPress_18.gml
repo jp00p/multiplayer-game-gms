@@ -1,2 +1,2 @@
 /// @desc
-EquipWeapon(obj_starter_sword);
+EquipWeapon(obj_weapon_mace);

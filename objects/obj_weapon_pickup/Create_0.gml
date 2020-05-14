@@ -1,2 +1,2 @@
-weapon = -1;
+//weapon = -1;
 cooldown = 120;

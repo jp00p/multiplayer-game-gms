@@ -1,6 +1,7 @@
 if(!instance_exists(par_player)) exit;
 y = owner.y-4; // in arms
-	x = owner.x; // trailing weight -- hammer is heavy
+x = owner.x; // trailing weight -- hammer is heavy
+
 /*
 var xx = x + lengthdir_x(sprite_width, image_angle);
 var yy = y + lengthdir_y(sprite_height, image_angle);

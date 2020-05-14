@@ -1,4 +1,18 @@
 var c = c_white;
-draw_self();
-draw_text_color(x-4,y-8,cast_text,c,c,c,c,1);
-//draw_text(x,y,string(hp));
+
+//draw_self();
+
+
+draw_sprite_ext(
+	sprite_index,
+	image_index,
+	floor(x),
+	floor(y-z),
+	image_xscale,
+	image_yscale,
+	image_angle,
+	image_blend,
+	image_alpha
+);
+
+draw_text(x, y, string(facing));
