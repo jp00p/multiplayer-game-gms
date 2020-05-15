@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_player2",
     "eventList": [
-        
+        {
+            "id": "d8534062-f9b1-4b39-a5a1-4f326580622f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "1e73ba48-26ec-4813-8012-fc18da0f856b"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
@@ -31,6 +40,22 @@
             "objectId": "7063c882-bda9-4f06-a310-b4f06a203343",
             "propertyId": "7efa817f-09c4-4cfd-b89c-e0d257b74908",
             "value": "obj_starter_staff"
+        },
+        {
+            "id": "b7ccd472-e821-496e-b8bd-d4186374e231",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "7063c882-bda9-4f06-a310-b4f06a203343",
+            "propertyId": "e2f7af46-bf2d-4795-9d90-25fb16c50f31",
+            "value": "2.5"
+        },
+        {
+            "id": "e4d5dbb2-d256-40c6-b755-34b4501ab215",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "7063c882-bda9-4f06-a310-b4f06a203343",
+            "propertyId": "49ac0955-9151-476e-8c16-7f73f386ce00",
+            "value": "0.15"
         }
     ],
     "parentObjectId": "7063c882-bda9-4f06-a310-b4f06a203343",

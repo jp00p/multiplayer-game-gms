@@ -1,4 +1,5 @@
 //Movement
+attacking = false;
 h_spd = lengthdir_x(roll_speed, hit_from);
 v_spd = lengthdir_y(roll_speed, hit_from);
 
@@ -21,5 +22,5 @@ if(move_distance_remaining <= 0){
 if(_cod){
 	player_state = PlayerStateFree;
 	move_distance_remaining = knockback_distance;
-	ScreenShake(view_camera[0], 4,30);
+	ScreenShake(player_cam, 4,30);
 }

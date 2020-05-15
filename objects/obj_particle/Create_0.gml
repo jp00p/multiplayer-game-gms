@@ -19,15 +19,15 @@ part_type_direction(pb, 0, 359, 0, 0);
 part_type_gravity(pb, .2, 270);
 part_type_life(pb, 15, 25);
 
-part_type_sword = part_type_create();
-part_type_shape(part_type_sword, pt_shape_ring);
-part_type_size(part_type_sword, 0.1, 0.2, 0, false);
-part_type_color3(part_type_sword, c_yellow, c_white, c_white);
-part_type_life(part_type_sword, 60, 120);
-part_type_alpha3(part_type_sword, .3, .5, 0);
-//part_type_direction(part_type_sword, 0, 359, 0, false);
-//part_type_orientation(part_type_sword, 0, 359, 0, false, false);
-//part_type_speed(part_type_sword, 1, 3, -0.05, false);
+psword = part_type_create();
+part_type_shape(psword, pt_shape_pixel)
+part_type_size(psword, 0, 1, 0, 0)
+part_type_scale(psword, 1, 1)
+part_type_color3(psword, 16711812, 65400, 16711704)
+part_type_alpha3(psword, 0, 0.92, 0)
+part_type_speed(psword, 0, 1, 0, 0)
+part_type_blend(psword, 1)
+part_type_life(psword, 25, 35)
 
 part_type_heal = part_type_create();
 part_type_shape(part_type_heal, pt_shape_star);
@@ -39,3 +39,14 @@ part_type_alpha3(part_type_heal, .5, .8, 0);
 part_type_direction(part_type_heal, 0, 359, 0, false);
 part_type_orientation(part_type_heal, 0, 359, 0, false, false);
 part_type_speed(part_type_heal, 1, 5, -0.05, false);
+
+pcast = part_type_create();
+part_type_shape(pcast, pt_shape_circle);
+part_type_scale(pcast, 0.5, 0.25);
+part_type_size(pcast, 0, 1, 0.015, false);
+part_type_color3(pcast, c_blue, c_aqua, c_white);
+part_type_life(pcast, 10, 40);
+part_type_alpha3(pcast, 0.05, .5, .25);
+
+
+

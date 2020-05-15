@@ -1,6 +1,9 @@
 target = noone;
 
 z = 0;
+flash = 0;
+u_flash = shader_get_uniform(shd_flash, "flash");
+
 h_spd = 0;
 v_spd = 0;
 
@@ -35,11 +38,9 @@ enemy_wander_tick = 0;
 
 //enemy_attack_timer = room_speed * 1;
 enemy_attack_tick = enemy_attack_timer;
-attack_range = 10;  
 attack_target_x = 0;
 attack_target_y = 0;
-attacking = false;
-
+//attacking = false;
 
 charge_attack_timer = 0.5 * room_speed;
 charge_atk_tick = 0;
@@ -53,6 +54,18 @@ charge_tick = 0;
 shoot_attack_timer = 0.5 * room_speed;
 shoot_attack_tick = 0;
 
+//enemy_attack_routine = EnemyBaseAttacks;
 
 // create path for pathfinding
 path = path_add();
+bomb = -1;
+
+if(bomber){
+	throw_distance_remaining = 0;
+	bomb = instance_create_layer(x,y,"Instances",obj_bomb);
+	with(bomb){ owner = other.id; }
+	bomb_tick = 0;
+	bomb_windup_timer = 30;
+}
+
+

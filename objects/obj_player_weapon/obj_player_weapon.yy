@@ -154,7 +154,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "10",
+            "value": "15",
             "varName": "swing_speed_down",
             "varType": 0
         },
@@ -170,6 +170,34 @@
             "resourceFilter": 1023,
             "value": "8",
             "varName": "thrust_length",
+            "varType": 0
+        },
+        {
+            "id": "9ed6d36f-2ead-4f81-a329-f4dee9d48079",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "10",
+            "varName": "swing_timer_up",
+            "varType": 0
+        },
+        {
+            "id": "e2b38732-7bb4-403f-9dc1-afeb57196b2d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "5",
+            "varName": "swing_timer_down",
             "varType": 0
         }
     ],

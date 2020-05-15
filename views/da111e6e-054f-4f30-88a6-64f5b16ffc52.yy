@@ -9,7 +9,7 @@
         "656fd1b5-bf02-4de7-9b1c-cc28f171699e"
     ],
     "filterType": "GMScript",
-    "folderName": "PlayerAttacks",
+    "folderName": "PlayerAttackStates",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

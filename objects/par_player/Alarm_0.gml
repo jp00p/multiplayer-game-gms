@@ -1,2 +1,2 @@
-///@desc set player state to free
+///@desc reset player state
 player_state = PlayerStateFree;

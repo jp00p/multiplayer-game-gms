@@ -4,7 +4,7 @@ if(!instance_exists(owner)) {
 	exit;
 }
 
-x_start = owner.x;
+x_start = owner.x+x_offset;
 y_start = owner.y - 16; 
 depth = owner.depth - 1;
 

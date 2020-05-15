@@ -8,7 +8,22 @@
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
-        
+        {
+            "id": "cf9abc19-e28b-4914-a315-1c4dcf45a68b",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "abd5a1c9-d0c2-4e6a-a20e-6326647e5912",
+            "propertyId": "f2f25d88-187d-4655-815c-77b22122d3f9",
+            "value": "10"
+        },
+        {
+            "id": "888486ce-de35-45dd-94bb-be77586e9ab3",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "abd5a1c9-d0c2-4e6a-a20e-6326647e5912",
+            "propertyId": "33d435bd-eff0-4ab7-9bf9-09f46166563a",
+            "value": "30"
+        }
     ],
     "parentObjectId": "abd5a1c9-d0c2-4e6a-a20e-6326647e5912",
     "persistent": false,

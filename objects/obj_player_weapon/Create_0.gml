@@ -14,8 +14,11 @@ weapon_state = WeaponStateNormal;
 
 //swing_angle = 45;
 //swing_speed = 0.8;
-
 //thrust_length = 8;
+
+swing_timer_up = 10;
+swing_timer_down = 5;
+swing_tick = 0;
 
 thrust_timer = thrust_length*2;
 thrust_tick = thrust_timer;

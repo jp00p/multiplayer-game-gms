@@ -20,14 +20,14 @@ if(place_meeting(x, y+v_spd, obj_solid)){
 
 var inst = -1;
 
-if(place_meeting(x,y+v_spd, par_enemy)){
-	//inst = instance_place(x,y+v_spd, par_enemy);
-	v_spd *= 0.3;
+if(player_state != PlayerRoll){
+	if(place_meeting(x,y+v_spd, par_enemy)){
+		v_spd *= 0.3;
 	
-}
-if(place_meeting(x+h_spd,y, par_enemy)){
-	//inst = instance_place(x+h_spd,y, par_enemy);
-	h_spd *= 0.3;
+	}
+	if(place_meeting(x+h_spd,y, par_enemy)){
+		h_spd *= 0.3;
+	}
 }
 
 x += h_spd;

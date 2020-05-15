@@ -10,7 +10,7 @@
         "6d89d6e1-80e8-4bf1-a57d-f8eb4b08005b"
     ],
     "filterType": "GMScript",
-    "folderName": "WeaponStates",
+    "folderName": "Weapon",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

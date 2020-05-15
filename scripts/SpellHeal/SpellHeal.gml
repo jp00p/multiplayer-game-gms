@@ -11,9 +11,7 @@ if(!instance_exists(obj_player1)) exit;
 		}
 	}
 	with(obj_particle){
-		repeat(15){
-			part_particles_create_color(part_sys, xx, yy, part_type_heal, c_white, 10);
-		}
+		part_particles_create_color(part_sys, xx, yy, part_type_heal, c_white, 100);
 	}
 
 player_state = PlayerStateFree;

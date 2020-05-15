@@ -45,16 +45,6 @@
             "m_owner": "7063c882-bda9-4f06-a310-b4f06a203343"
         },
         {
-            "id": "bb2bfa43-cc23-4489-a1c2-b949c509c0da",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 10,
-            "eventtype": 2,
-            "m_owner": "7063c882-bda9-4f06-a310-b4f06a203343"
-        },
-        {
             "id": "dd34b739-4744-49f3-8c9b-ad35dc9da2ca",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -105,13 +95,13 @@
             "m_owner": "7063c882-bda9-4f06-a310-b4f06a203343"
         },
         {
-            "id": "bbfa7937-bae1-49a8-b0b8-2d916ff927dd",
+            "id": "d3c22940-1e28-4c56-bdec-13a8f3eee104",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 3,
-            "eventtype": 2,
+            "enumb": 64,
+            "eventtype": 8,
             "m_owner": "7063c882-bda9-4f06-a310-b4f06a203343"
         }
     ],
@@ -172,6 +162,34 @@
             "resourceFilter": 1023,
             "value": "view_camera[0]",
             "varName": "player_cam",
+            "varType": 0
+        },
+        {
+            "id": "e2f7af46-bf2d-4795-9d90-25fb16c50f31",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "2",
+            "varName": "spd",
+            "varType": 0
+        },
+        {
+            "id": "49ac0955-9151-476e-8c16-7f73f386ce00",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "slippiness",
             "varType": 0
         }
     ],

@@ -1,4 +1,3 @@
-ScreenShake(owner.player_cam, 10, 5);
 if(owner.id == obj_player1.id){
 	other.threat[0] += 10;	
 } else if (owner.id == obj_player2.id){
@@ -10,7 +9,7 @@ if(owner.id == obj_player1.id){
 var owner_id = owner.id;
 
 with(other) {
-	hit_by = other;
+	hit_by = other.owner;
 	event_perform(ev_other, ev_user0);
 }
 
