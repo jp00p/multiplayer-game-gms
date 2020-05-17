@@ -47,6 +47,14 @@
             "objectId": "2c9622da-7c22-4f6b-a041-3619f9370e0f",
             "propertyId": "43913794-4ec2-4d7c-a8d4-468b910b59d0",
             "value": "EnemyBomberAttacks"
+        },
+        {
+            "id": "24a36f13-ef33-4987-95a0-6929da289f85",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "2c9622da-7c22-4f6b-a041-3619f9370e0f",
+            "propertyId": "4e2967e7-bb95-4537-8ad8-105caaa75007",
+            "value": "true"
         }
     ],
     "parentObjectId": "2c9622da-7c22-4f6b-a041-3619f9370e0f",

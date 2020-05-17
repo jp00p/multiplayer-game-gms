@@ -10,7 +10,8 @@
         "3ce100fb-d6b1-4321-bf52-4a37ba696278",
         "3ff002cd-9f8f-4f31-8ef6-1d3258c62cbf",
         "eaf67088-a2e4-4120-b3d8-d65b7532231e",
-        "213b3d9f-0509-4940-baf3-9c14f82b450a"
+        "213b3d9f-0509-4940-baf3-9c14f82b450a",
+        "7ecd360b-12da-4c07-b20b-a4454ee85aa4"
     ],
     "filterType": "GMObject",
     "folderName": "World",

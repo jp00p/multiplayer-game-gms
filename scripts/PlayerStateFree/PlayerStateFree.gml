@@ -1,51 +1,59 @@
-v_spd = lerp(v_spd, (key_down - key_up) * spd, slippiness);
-h_spd = lerp(h_spd, (key_right - key_left) * spd, slippiness);
-
-cooldown--;
+// move
+v_spd = Approach(v_spd, (key_down - key_up) * spd, slippiness);
+h_spd = Approach(h_spd, (key_right - key_left) * spd, slippiness);
 z = 0;
+
+var _s = selected_skill;
+move_distance_remaining = roll_distance; // reset roll distance
+
+
 PlayerCollision();
 
-if(input_magnitude != 0){
-	facing = input_direction;
-	image_speed = 1;
-	if(sign(h_spd != 0)){
-		image_xscale = sign(h_spd);
-	}
-} else {
-	image_speed = 0;
-	image_index = 1;
-}
 
-if(key_action){
+if(key_action && cooldown <= 0){
+	// basic attack action (skill depends on weapon)
 	player_state = PlayerStateAttack;
 	attack_state = equipped.weapon_attack;
 	cooldown = max_cooldown;
 }
 
-if(key_skill_up){
-	selected_skill = Wrap(selected_skill+1, 1, 4);	
-}
-if(key_skill_down){
-	selected_skill = Wrap(selected_skill-1, 1, 4);	
-}
 
-if(key_action2 && cooldown <= 0){
-	player_state = PlayerStateSecondary;
-	move_distance_remaining = roll_distance;
+if(
+	key_action2 && // pressing key
+	cooldown <= 0 &&  // gcd is ready
+	player_skill_cooldown_tick[_s] <= 0 && // skill is ready
+	resource_bar_amt >= player_skill_cost[_s] // player has enough rage/mana
+){
+	
+	
+	
 	if(player_num == 1){
-		secondary_state = PlayerRoll;
+		player_state = PlayerStateSecondary;	
+		cooldown = max_cooldown; // global cooldown
+		player_skill_cooldown_tick[_s] = player_skill_cooldown[_s]; // set cooldown for skill
+		secondary_state = player_skill[_s];
 	} else {
-		// cast spell
-		if(point_distance(x,y,obj_player1.x,obj_player1.y) > 150){
-			// out of range
-			player_state = PlayerStateFree;
-		} else if (collision_line(x,y,obj_player1.x,obj_player1.y,obj_solid,false,true)){
-			// no los
-			player_state = PlayerStateFree;
+		if(!player_skill_self[_s]){
+			if(point_distance(x,y,obj_player1.x,obj_player1.y) <= player_skill_range[_s] && input_magnitude == 0){
+				cooldown = max_cooldown; // global cooldown
+				player_skill_cooldown_tick[_s] = player_skill_cooldown[_s]; // set cooldown for skill
+				CastSpell(
+					player_skill[_s], 
+					player_skill_cast_time[_s], 
+					player_skill_range[_s], 
+					player_skill_self[_s]
+				);
+			}
 		} else {
-			CastSpell(SpellHeal, 3);
+			cooldown = max_cooldown; // global cooldown
+			player_skill_cooldown_tick[_s] = player_skill_cooldown[_s]; // set cooldown for skill
+			CastSpell(
+				player_skill[_s], 
+				player_skill_cast_time[_s], 
+				player_skill_range[_s], 
+				player_skill_self[_s]
+			);
 		}
-	}
-	cooldown = max_cooldown;
-}
 
+	}	
+}

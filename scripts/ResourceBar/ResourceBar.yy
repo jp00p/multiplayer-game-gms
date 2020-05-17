@@ -1,8 +1,8 @@
 {
-    "id": "abe853d5-2779-474a-a827-adac6bf9bd14",
+    "id": "f0b2d1c4-67e2-4352-869f-6f92845de40c",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "SpellHeal",
+    "name": "ResourceBar",
     "IsCompatibility": false,
     "IsDnD": false
 }

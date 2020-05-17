@@ -1,5 +1,5 @@
 target = noone;
-
+facing = 0;
 z = 0;
 flash = 0;
 u_flash = shader_get_uniform(shd_flash, "flash");
@@ -67,5 +67,11 @@ if(bomber){
 	bomb_tick = 0;
 	bomb_windup_timer = 30;
 }
-
+equipped = -1;
+if(weapon != -1){
+	equipped = instance_create_layer(x,y,"Instances",weapon);
+	with(equipped){
+		owner = other;
+	}
+}
 

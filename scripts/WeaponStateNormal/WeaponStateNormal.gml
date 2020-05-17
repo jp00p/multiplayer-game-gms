@@ -9,6 +9,5 @@ if(owner.image_xscale == -1){
 	_add = swing_angle;	
 }
 
-testadd = _add;
 start_angle = owner.facing - angle_difference(owner.facing, owner.facing+_add);
 target_angle = owner.facing - angle_difference(owner.facing, owner.facing-_add);

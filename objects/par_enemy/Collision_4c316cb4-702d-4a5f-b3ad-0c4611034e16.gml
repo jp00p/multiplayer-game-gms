@@ -5,10 +5,8 @@ if(attacking){
 	
 	
 	with(other){
-		
 			hit_from = other.direction;
 			event_perform(ev_other, ev_user0);
-			alarm[1] = 30;
 			if(other.poisoner){
 				if(status != StatusPoison){
 					status = StatusPoison;

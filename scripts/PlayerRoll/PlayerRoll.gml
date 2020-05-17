@@ -3,6 +3,7 @@ h_spd = lengthdir_x(roll_speed, direction);
 v_spd = lengthdir_y(roll_speed, direction);
 
 move_distance_remaining = max(0, move_distance_remaining-roll_speed);
+resource_bar_amt = min(resource_bar_amt+1, resource_bar_max);
 
 var _cod = PlayerCollision(); // did we collide?
 
@@ -14,6 +15,7 @@ var _cod = PlayerCollision(); // did we collide?
 
 // change state
 if(move_distance_remaining <= 0){
+	
 	player_state = PlayerStateFree;
 }
 

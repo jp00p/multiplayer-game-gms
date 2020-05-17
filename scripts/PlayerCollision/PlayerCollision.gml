@@ -18,15 +18,14 @@ if(place_meeting(x, y+v_spd, obj_solid)){
 	_co = true;
 }
 
-var inst = -1;
 
 if(player_state != PlayerRoll){
 	if(place_meeting(x,y+v_spd, par_enemy)){
-		v_spd *= 0.3;
+		v_spd = v_spd*0.75;
 	
 	}
 	if(place_meeting(x+h_spd,y, par_enemy)){
-		h_spd *= 0.3;
+		h_spd = h_spd*0.75;
 	}
 }
 

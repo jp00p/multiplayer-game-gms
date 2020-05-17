@@ -423,6 +423,20 @@
             "value": "0",
             "varName": "poisoner",
             "varType": 3
+        },
+        {
+            "id": "34c6e049-b7da-4e54-bf3d-f3a7421acd71",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "obj_enemy_weapon",
+            "varName": "weapon",
+            "varType": 0
         }
     ],
     "solid": false,

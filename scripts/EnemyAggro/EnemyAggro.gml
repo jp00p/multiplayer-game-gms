@@ -4,10 +4,6 @@ if(target != noone && threat[0] > threat[1]){
 	target = obj_player2;
 }
 
-if(target != noone && threat[0] == 0 and threat[1] == 0){
-	//target = noone;	
-}
-
 if (target == noone){ // no target, is there one closer?
 	
 	var closest = instance_nearest(x,y,par_player); // find nearest player

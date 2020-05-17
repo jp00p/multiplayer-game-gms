@@ -16,6 +16,8 @@ hp = max_hp;
 hit = 0;
 hit_from = 0;
 
+show_radius_timer = 0;
+
 status = StatusNormal;
 selected_skill = 1;
 
@@ -32,22 +34,19 @@ player_interrupted = false;
 
 player_state = PlayerStateFree;
 
-roll_speed = 4;
-roll_distance = 72;
+roll_speed = 4.25;
+roll_distance = 96;
 bounce_distance = 40;
 knockback_distance = 24;
 bounce_distance_height = 12;
 bounce_speed = 1.5;
 
 image_speed = 0;
-cast_text = "";
 cast_timer = 0;
 spell_bar_timer = 0;
 
 equipped = instance_create_layer(x,y,"Instances",weapon);
 with(equipped){
 	owner = other.id;
-	//sprite_index = other.weapon;
-	//depth = owner.depth + 10;
 }
 
