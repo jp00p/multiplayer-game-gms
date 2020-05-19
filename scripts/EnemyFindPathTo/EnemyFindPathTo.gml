@@ -3,7 +3,7 @@ var x_to = argument0;
 var y_to = argument1;
 var _spd = argument2;
 
-if(hit == 0){
+
 
 	// end path if we hit a player
 	if(place_meeting(x,y,par_player)){
@@ -14,8 +14,3 @@ if(hit == 0){
 		path_start(path, _spd, path_action_stop, false);
 	}
 
-} else {
-
-	path_end();
-
-}

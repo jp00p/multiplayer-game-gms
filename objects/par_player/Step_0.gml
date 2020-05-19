@@ -3,7 +3,7 @@ GetInput(player_num); // handle each players input
 cooldown = max(cooldown - 1, 0); // global CD
 
 direction = facing;
-depth = -bbox_bottom;
+//depth = -bbox_bottom;
 
 for(var j=1; j<=4; j++){
 	// reset cooldowns

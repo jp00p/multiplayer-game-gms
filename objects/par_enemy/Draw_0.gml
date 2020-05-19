@@ -7,6 +7,8 @@ if(shader_current() != -1){
 	shader_reset();
 }
 
+draw_text(x,y,string(h_spd)+":"+string(v_spd));
+
 //draw_circle_color(x,y,enemy_sight_range,c_red,c_red,1);
 //draw_circle_color(x,y,enemy_attack_range,c_maroon,c_maroon,1);
 //draw_circle_color(x,y,enemy_forget_range,c_green,c_green,1);

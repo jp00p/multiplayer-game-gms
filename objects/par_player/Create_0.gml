@@ -29,7 +29,7 @@ poison_tick = 0;
 
 facing = 0;
 cooldown = 0;
-max_cooldown = 15;
+max_cooldown = 1;
 player_interrupted = false;
 
 player_state = PlayerStateFree;

@@ -1,5 +1,3 @@
-var _add = testadd;
-
 var curangle = image_angle;
 
 // swing state

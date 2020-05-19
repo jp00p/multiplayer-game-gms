@@ -695,6 +695,14 @@
             }
         },
         {
+            "Key": "67a18168-fd07-4b02-9833-0ef7694d6532",
+            "Value": {
+                "id": "3f2b3d4c-e177-4977-9264-eab08f57fade",
+                "resourcePath": "scripts\\EnemyAttackSword\\EnemyAttackSword.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6abec258-d3fb-46bc-9c91-3ca719795acc",
             "Value": {
                 "id": "a6d2efb0-c170-49ce-b487-b0b7dbf1e0e7",
@@ -740,6 +748,14 @@
                 "id": "3351c66a-991a-4ab1-87e6-269d31239682",
                 "resourcePath": "views\\72dc842e-8602-42cd-a9c8-805f1dfc9ae9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7628838a-2e23-40e6-a174-119235e89d42",
+            "Value": {
+                "id": "27235801-aba5-4707-938f-80a44ff31773",
+                "resourcePath": "tilesets\\tiles_dungeon2\\tiles_dungeon2.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -811,6 +827,14 @@
             "Value": {
                 "id": "5a274f57-d911-47e4-9188-016e52fdb9b8",
                 "resourcePath": "objects\\obj_enemy_weapon\\obj_enemy_weapon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "825d0c7d-93dc-4b60-8485-366ebc6e2516",
+            "Value": {
+                "id": "3f31f308-8e78-4e40-a0ee-5032fb3d36ef",
+                "resourcePath": "objects\\obj_enemy_sword\\obj_enemy_sword.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -919,6 +943,14 @@
             }
         },
         {
+            "Key": "9cbcbcac-ca33-4103-a38f-1a9caabe5b19",
+            "Value": {
+                "id": "66058eac-7976-4951-9b2c-e2ac411d2328",
+                "resourcePath": "timelines\\timeline0\\timeline0.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "9f8e1fa8-b5fc-4e67-ab54-1569be940f99",
             "Value": {
                 "id": "85a2e16b-3717-4f2d-9aa5-516f0a3c4a53",
@@ -1020,6 +1052,14 @@
                 "id": "86570fcc-c77c-46d3-8044-e5aee9a89f05",
                 "resourcePath": "views\\af307c29-18d6-4ec0-a784-5821506312cd.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b3c57c79-60e0-413e-a813-764c99cc1444",
+            "Value": {
+                "id": "0be73a94-0170-4d36-9588-38124c422b87",
+                "resourcePath": "sprites\\spr_dungeon_tiles2\\spr_dungeon_tiles2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1369,6 +1409,7 @@
         "823141b5-4db3-4b4a-a213-4789da801ab9",
         "a3a27f1a-e531-4197-bb60-d3e9f834f8e4",
         "15943f5a-e415-41b2-ba53-0b92fd1bbb1c",
+        "d15d8270-276b-450b-9b02-6a573327d015",
         "3b07c2f9-c8f9-422d-b665-ba7b0895e8b8",
         "3def587e-3f77-4d6c-8171-2db9d2cd184f",
         "df49a458-2a4d-4948-923a-23a90b0553b1",
@@ -1378,6 +1419,7 @@
         "acbe3a92-3a9b-4122-949a-0a39ce3df0e2",
         "5837732f-6ba0-42cd-8142-ab0f05dc6005",
         "0ce804c2-117e-4428-a7e3-7c335576373c",
+        "67a18168-fd07-4b02-9833-0ef7694d6532",
         "ceb44384-0dea-42f4-b92f-bb0d5d66add3",
         "dbb8ce9d-2c0c-41f9-82ea-a136e6bd8bec",
         "e23ad8b8-55d7-4d2d-a5c9-894b8f5f766c",
@@ -1390,7 +1432,6 @@
         "644a4b76-2216-41dd-b3e0-75df803bf14c",
         "566f13fb-8699-4fdd-884e-e4b503274c06",
         "3d937d49-5242-4399-9976-0fca3b5f31b8",
-        "d15d8270-276b-450b-9b02-6a573327d015",
         "63893f06-7a0a-432e-af6d-0b707f637f8b",
         "c8804b28-4e6d-4f2a-9f32-3f37a6c0521b",
         "01a406a0-f333-4382-a9de-84c53de5f651",

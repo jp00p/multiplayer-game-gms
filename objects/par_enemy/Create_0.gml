@@ -51,6 +51,19 @@ wind_up_tick = 0;
 charge_timer = 0.2 * room_speed;
 charge_tick = 0;
 
+sword_attack_timer = 0.5 * room_speed;
+sword_attack_tick = 0;
+sword_state = 0; // 0 = wind_up, 1 = swing
+sword_windup_timer = 0.25 * room_speed;
+sword_windup_tick = 0;
+sword_swing_timer = 0.25 * room_speed;
+sword_swing_count = 1; // number of swings
+sword_swings_taken = 0;
+sword_swing_tick = 0;
+
+knockback_distance = 12;
+kb_distance_remaining = 0;
+
 shoot_attack_timer = 0.5 * room_speed;
 shoot_attack_tick = 0;
 
@@ -67,6 +80,7 @@ if(bomber){
 	bomb_tick = 0;
 	bomb_windup_timer = 30;
 }
+
 equipped = -1;
 if(weapon != -1){
 	equipped = instance_create_layer(x,y,"Instances",weapon);

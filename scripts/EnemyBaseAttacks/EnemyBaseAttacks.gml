@@ -1,1 +1,1 @@
-enemy_attack_state = EnemyAttackCharge;
+enemy_attack_state = EnemyAttackSword;

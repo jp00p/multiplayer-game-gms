@@ -32,6 +32,7 @@ threat[aggro_from] += 10;
 // knockback
 if(hit_from != -1){
 	path_end();
+	kb_distance_remaining = knockback_distance;
 	EnemyKnockback(damage, hit_from);
 }
 

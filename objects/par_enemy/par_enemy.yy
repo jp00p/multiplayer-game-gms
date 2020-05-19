@@ -153,6 +153,26 @@
             "enumb": 0,
             "eventtype": 4,
             "m_owner": "2c9622da-7c22-4f6b-a041-3619f9370e0f"
+        },
+        {
+            "id": "c29ecd04-d28c-42e8-b10b-8ad6e10171fd",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 3,
+            "m_owner": "2c9622da-7c22-4f6b-a041-3619f9370e0f"
+        },
+        {
+            "id": "36ad1bfd-c828-4225-b96b-3336687cba9a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "eb8d60d2-ca41-4b26-8d35-04fbb8f078f9",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "2c9622da-7c22-4f6b-a041-3619f9370e0f"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -434,7 +454,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "obj_enemy_weapon",
+            "value": "-1",
             "varName": "weapon",
             "varType": 0
         }
